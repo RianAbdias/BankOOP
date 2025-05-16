@@ -9,8 +9,8 @@ private:
 
 public:
     Cliente(std::string nome, std::string cpf);
-    std::string getNome() const;
-    std::string getCpf() const;
+    std::string getNome();
+    std::string getCpf();
 };
 
 #endif
